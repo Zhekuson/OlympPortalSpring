@@ -1,0 +1,2 @@
+com/nuclearfoxes/app/ApplicationTest.java
+ com.nuclearfoxes.app.ApplicationTest

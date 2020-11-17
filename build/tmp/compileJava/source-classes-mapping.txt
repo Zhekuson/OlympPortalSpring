@@ -1,0 +1,21 @@
+com/nuclearfoxes/models/User.java
+ com.nuclearfoxes.models.User
+ com.nuclearfoxes.models.User$UserBuilder
+com/nuclearfoxes/Application.java
+ com.nuclearfoxes.Application
+com/nuclearfoxes/datasource/PostgresDataSource.java
+ com.nuclearfoxes.datasource.PostgresDataSource
+com/nuclearfoxes/service/UserService.java
+ com.nuclearfoxes.service.UserService
+com/nuclearfoxes/models/University.java
+ com.nuclearfoxes.models.University
+com/nuclearfoxes/api/UserController.java
+ com.nuclearfoxes.api.UserController
+com/nuclearfoxes/repository/UserRepository.java
+ com.nuclearfoxes.repository.UserRepository
+com/nuclearfoxes/service/UniversityService.java
+ com.nuclearfoxes.service.UniversityService
+com/nuclearfoxes/repository/UniversityRepository.java
+ com.nuclearfoxes.repository.UniversityRepository
+com/nuclearfoxes/api/UniversityController.java
+ com.nuclearfoxes.api.UniversityController

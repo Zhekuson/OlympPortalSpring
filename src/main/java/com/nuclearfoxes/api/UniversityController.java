@@ -5,6 +5,7 @@ import com.nuclearfoxes.service.UniversityService;
 import com.nuclearfoxes.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,5 +24,9 @@ public class UniversityController {
     @GetMapping
     public List<University> getAllUniversities(){
         return universityService.getAll();
+    }
+    @GetMapping(path = "{id}")
+    public University getUniversityById(@PathVariable("id") int id){
+        return  universityService.getUniversityById(id);
     }
 }

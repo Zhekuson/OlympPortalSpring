@@ -20,4 +20,8 @@ public class UniversityService {
     public List<University> getAll(){
         return universityRepository.getAllUniversities();
     }
+
+    public University getUniversityById(int id){
+        return universityRepository.getUniversityById(id);
+    }
 }

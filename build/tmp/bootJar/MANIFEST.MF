@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Main-Class: com.nuclearfoxes.Application
+Main-Class: org.springframework.boot.loader.JarLauncher
 Start-Class: com.nuclearfoxes.Application
 Spring-Boot-Version: 2.4.0
 Spring-Boot-Classes: BOOT-INF/classes/
